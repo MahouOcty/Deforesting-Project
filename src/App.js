@@ -1,9 +1,10 @@
 import './App.css';
-import { PinLayout } from './components/main';
+import { HeaderLayout, PinLayout } from './components/main';
 
 const App = () => {
   return (
     <div>
+      <HeaderLayout />
       <PinLayout />
     </div>
   );

@@ -17,6 +17,8 @@ const PinLayout = () => {
       gridTemplateColumns: 'repeat(auto-fill, 250px)',
       gridAutoRows: '10px',
       justifyContent: 'center',
+      zIndex: 0,
+      top: "60px"
     },
   };
 
