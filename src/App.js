@@ -1,11 +1,11 @@
 import './App.css';
-import { HeaderLayout, PinLayout } from './components/main';
+import Home from './Home';
+
 
 const App = () => {
   return (
     <div>
-      <HeaderLayout />
-      <PinLayout />
+      <Home/>
     </div>
   );
 };
